@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+    background-color: #fafafa;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.celular {
+    width: 450px;
+}
+
+.conteiner {
+    border: solid 1px #d3d3d3;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+input {
+    margin-top: 10px;
+    height: 36px;
+    border-radius: 3px;
+    border: solid 1px #d3d3d3;
+
+}
+
+button {
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #0095f6;
+    border: none;
+    color: #ffffff;
+
+}
+
+.Facebook {
+    color: #385185;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.senha {
+    color: #385185;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 12px;
+    margin-top: 20px;
+
+}
+.imagens{
+    position: relative;
+
+}
+.celular-1{
+    width: 240px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
+    transition: 2s ease-in-out;
+}
